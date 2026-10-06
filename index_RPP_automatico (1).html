@@ -1,0 +1,119 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BI RPP — GEECI/SEE-PB</title><style>
+:root{--b:#326ED6;--r:#F23023;--g:#23863B;--y:#F6B92A;--ink:#182235;--mut:#687386;--bd:#e3e8ef;--bg:#f5f7fb;--w:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--ink)}header{background:#fff;border-bottom:1px solid var(--bd);padding:20px 28px}.brand{display:flex;gap:13px;align-items:center}.logo{display:grid;grid-template-columns:15px 15px;grid-template-rows:15px 15px;gap:3px;transform:rotate(9deg)}.logo i:nth-child(1){background:var(--b);border-radius:9px 0 0}.logo i:nth-child(2){background:var(--r);border-radius:0 9px 0 0}.logo i:nth-child(3){background:var(--g);border-radius:0 0 0 9px}.logo i:nth-child(4){background:var(--y)}h1{font-size:21px;margin:0}.sub{font-size:12px;color:var(--mut);margin-top:3px}main{max-width:1450px;margin:auto;padding:20px}.tabs{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px}.tab{border:1px solid var(--bd);background:#fff;padding:10px 15px;border-radius:9px;font-weight:700;cursor:pointer}.tab.on{background:var(--b);color:#fff;border-color:var(--b)}.view{display:none}.view.on{display:block}.filters,.panel,.card{background:#fff;border:1px solid var(--bd);border-radius:13px}.filters{display:grid;grid-template-columns:1fr 2fr 1fr 1fr;gap:10px;padding:13px;margin-bottom:13px}label{font-size:10px;text-transform:uppercase;font-weight:800;color:var(--mut);display:block;margin-bottom:5px}select,input{width:100%;height:38px;border:1px solid var(--bd);border-radius:8px;padding:0 9px;background:#fff}.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-bottom:13px}.card{padding:14px;border-top:4px solid var(--b)}.card.g{border-top-color:var(--g)}.card.r{border-top-color:var(--r)}.card.y{border-top-color:var(--y)}.kl{font-size:10px;text-transform:uppercase;font-weight:800;color:var(--mut)}.kv{font-size:25px;font-weight:850;margin-top:7px}.kf{font-size:11px;color:var(--mut);margin-top:3px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-bottom:13px}.panel{padding:15px;min-width:0}.pt{font-size:14px;font-weight:850;margin-bottom:4px}.pd{font-size:11px;color:var(--mut);margin-bottom:12px}.bars{display:flex;flex-direction:column;gap:8px}.barrow{display:grid;grid-template-columns:minmax(120px,1.3fr) 2fr 45px;gap:8px;align-items:center;font-size:11px}.track{height:10px;background:#eef1f5;border-radius:9px;overflow:hidden}.fill{height:100%;background:var(--b);border-radius:9px}.fill.r{background:var(--r)}.fill.g{background:var(--g)}.matrix{overflow:auto}.matrix table,.tbl{border-collapse:collapse;width:100%;font-size:11px}th{background:#f0f4fa;text-align:left;padding:8px;white-space:nowrap;position:sticky;top:0;z-index:1}td{padding:8px;border-top:1px solid #edf0f4;vertical-align:top}.badge{display:inline-block;padding:4px 7px;border-radius:12px;font-weight:750;font-size:10px}.ok{background:#e7f4ea;color:var(--g)}.warn{background:#fff3d5;color:#7c5a00}.bad{background:#fde8e6;color:var(--r)}.info{background:#eaf1fd;color:var(--b)}.schoolcard{border-left:5px solid var(--b)}.schoolhead{display:flex;justify-content:space-between;gap:15px;align-items:start}.schoolname{font-size:19px;font-weight:850}.meta{font-size:12px;color:var(--mut);margin-top:3px}.mini{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;margin:14px 0}.mini>div{background:#f7f9fc;border:1px solid var(--bd);border-radius:9px;padding:10px}.mv{font-size:19px;font-weight:800}.ml{font-size:10px;color:var(--mut);text-transform:uppercase}.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:7px}.step{border:1px solid var(--bd);border-radius:9px;padding:9px;min-height:92px}.sn{font-size:10px;color:var(--mut);font-weight:800;margin-bottom:7px}.st{font-size:11px;font-weight:700}.textgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}.textbox{border:1px solid var(--bd);border-radius:9px;padding:11px}.textlabel{font-size:10px;color:var(--mut);font-weight:800;text-transform:uppercase;margin-bottom:6px}.textval{font-size:12px;line-height:1.45;white-space:pre-wrap}.links a{display:inline-block;margin:6px 7px 0 0;color:var(--b);font-weight:700;text-decoration:none}.priority{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:11px}.chip{border:1px solid var(--bd);background:#fff;border-radius:20px;padding:7px 10px;cursor:pointer;font-size:11px;font-weight:700}.chip.on{background:#172033;color:#fff}.search{margin-bottom:10px}.tablewrap{max-height:560px;overflow:auto;border:1px solid var(--bd);border-radius:9px}.note{font-size:10px;color:var(--mut);margin-top:9px}@media(max-width:900px){.filters{grid-template-columns:1fr 1fr}.kpis{grid-template-columns:repeat(3,1fr)}.grid2{grid-template-columns:1fr}.mini{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr 1fr}.textgrid{grid-template-columns:1fr}}@media(max-width:520px){main{padding:10px}.kpis{grid-template-columns:1fr 1fr}.filters{grid-template-columns:1fr}.steps{grid-template-columns:1fr}}
+</style></head><body><header><div class="brand"><div class="logo"><i></i><i></i><i></i><i></i></div><div><h1>Acompanhamento do RPP</h1><div class="sub">GEECI · SEE-PB · Escolas que confirmaram estudantes em RPP</div></div></div></header><main>
+<div class="tabs"><button class="tab on" data-v="geral">Visão geral</button><button class="tab" data-v="acoes">Situação das ações</button><button class="tab" data-v="escola">Acompanhamento individual</button><button class="tab" data-v="prior">Prioridades GEECI</button><button class="tab" data-v="docs">Documentos das Escolas</button></div>
+<section class="filters"><div><label>GRE</label><select id="gre"><option value="">Todas as GREs</option></select></div><div><label>Escola</label><select id="esc"><option value="">Todas as escolas</option></select></div><div><label>Apoio pedagógico</label><select id="apoio"><option value="">Todos</option></select></div><div><label>Reunião com GEECI</label><select id="reun"><option value="">Todas</option><option>Sim</option><option>Não</option></select></div></section>
+
+<section id="geral" class="view on">
+<div class="kpis"><div class="card"><div class="kl">Escolas com RPP</div><div id="kesc" class="kv"></div><div class="kf">universo filtrado</div></div><div class="card"><div class="kl">Estudantes em RPP</div><div id="kest" class="kv"></div></div><div class="card g"><div class="kl">Com diagnóstico</div><div id="kdiag" class="kv"></div><div id="pdiag" class="kf"></div></div><div class="card g"><div class="kl">Com PIA</div><div id="kpia" class="kv"></div><div id="ppia" class="kf"></div></div><div class="card r"><div class="kl">Participação irregular</div><div id="kirr" class="kv"></div><div id="pirr" class="kf"></div></div><div class="card y"><div class="kl">Pedem reunião</div><div id="kreu" class="kv"></div><div class="kf">com a GEECI</div></div></div>
+<div class="grid2"><div class="panel"><div class="pt">Estudantes por GRE</div><div class="pd">Concentração dos estudantes confirmados no RPP.</div><div id="grebars" class="bars"></div></div><div class="panel"><div class="pt">Principais suportes solicitados</div><div class="pd">Demanda indicada como mais urgente pelas escolas.</div><div id="supbars" class="bars"></div></div></div>
+<div class="grid2"><div class="panel"><div class="pt">Participação dos estudantes</div><div class="pd">Escolas com estudantes que não participam regularmente.</div><div id="partbars" class="bars"></div></div><div class="panel"><div class="pt">Forma predominante de atendimento</div><div class="pd">Situação informada pelas unidades escolares.</div><div id="atbars" class="bars"></div></div></div></section>
+
+<section id="acoes" class="view"><div class="panel"><div class="pt">Matriz das ações do RPP</div><div class="pd">As cinco ações iniciais e as cinco ações contínuas são apresentadas separadamente para preservar a terminologia do formulário.</div><div id="actionSummary"></div></div><div class="panel" style="margin-top:13px"><div class="pt">Situação por escola</div><div class="pd">Use os filtros acima para reduzir o universo.</div><div id="matrix" class="matrix"></div></div></section>
+
+<section id="escola" class="view"><div id="schoolDetail" class="panel schoolcard"></div></section>
+
+<section id="prior" class="view"><div class="panel"><div class="pt">Prioridades para acompanhamento GEECI</div><div class="pd">Filtros objetivos derivados das respostas. Não representam uma nota geral ou classificação institucional da escola.</div><div class="priority" id="chips"></div><input id="search" class="search" placeholder="Buscar escola"><div class="tablewrap"><table class="tbl"><thead><tr><th>GRE</th><th>Escola</th><th>Estudantes</th><th>Diagnóstico</th><th>PIA</th><th>Sem participação regular</th><th>Atendimento</th><th>Reunião</th></tr></thead><tbody id="ptbody"></tbody></table></div></div></section>
+
+<section id="docs" class="view"><div class="panel">
+<div class="pt">Documentos das Escolas</div>
+<div class="pd">Acesso centralizado às atas de sistematização e às pastas institucionais/documentos comprobatórios informados pelas escolas.</div>
+<div style="display:grid;grid-template-columns:1fr 2fr;gap:10px;margin-bottom:10px">
+<div><label>GRE dos documentos</label><select id="docGre"><option value="">Todas as GREs</option></select></div>
+<div><label>Buscar escola</label><input id="docSearch" placeholder="Digite o nome da escola"></div>
+</div>
+<div id="docCount" class="note" style="margin-bottom:10px"></div>
+<div class="tablewrap"><table class="tbl"><thead><tr><th>GRE</th><th>Escola</th><th>Ata de sistematização</th><th>Pasta institucional / Drive</th></tr></thead><tbody id="docbody"></tbody></table></div>
+<div class="note">Os botões são exibidos apenas quando o campo informado contém um endereço web acessível diretamente pelo navegador.</div>
+</div></section>
+</main><script>
+let D=[], $=x=>document.getElementById(x), fmt=n=>Number(n||0).toLocaleString('pt-BR'), pct=(a,b)=>b?((a/b)*100).toFixed(1).replace('.',',')+'%':'—';
+const iniNames=['Relação conferida','Diagnóstico','PIA elaborado','PIA apresentado/assinado','Cronograma'];const contNames=['Atividades alinhadas','Frequência/participação','Acompanhamento individual','Avaliações formativas','Reuniões da equipe'];
+function uniq(a){return [...new Set(a)].sort((a,b)=>a.localeCompare(b,'pt-BR',{numeric:true}))}function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function fill(sel,vals,label){let old=sel.value;sel.innerHTML='<option value="">'+label+'</option>'+vals.map(v=>'<option>'+esc(v)+'</option>').join('');if(vals.includes(old))sel.value=old}
+
+const CSV_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vTrnD0rGwT6qMb2ZMuUwZaaqi_3MmW6_r_hBeS3NqKR6HkTUpy-qX6-839ObANuPX7t1zQzfk87-rsc/pub?gid=408402135&single=true&output=csv";
+
+function parseCSV(text){
+  const rows=[]; let row=[], field="", quoted=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i];
+    if(quoted){
+      if(c==='"' && text[i+1]==='"'){field+='"';i++}
+      else if(c==='"'){quoted=false}
+      else field+=c;
+    }else{
+      if(c==='"') quoted=true;
+      else if(c===','){row.push(field);field=""}
+      else if(c==='\n'){row.push(field);rows.push(row);row=[];field=""}
+      else if(c!=='\r') field+=c;
+    }
+  }
+  if(field!==""||row.length){row.push(field);rows.push(row)}
+  return rows;
+}
+function num(v){let n=Number(String(v??'').trim().replace(/\./g,'').replace(',','.'));return Number.isFinite(n)?n:0}
+function parseStamp(v){
+  const m=String(v||'').match(/(\d{1,2})\/(\d{1,2})\/(\d{4})\s+(\d{1,2}):(\d{2})(?::(\d{2}))?/);
+  if(!m)return 0;
+  return new Date(+m[3],+m[2]-1,+m[1],+m[4],+m[5],+(m[6]||0)).getTime();
+}
+function rowToObj(r){
+  return {
+    ts:r[0]||"", gre:(r[1]||"").trim(), escola:(r[2]||"").trim(),
+    rpp:(r[3]||"").trim(), est:num(r[4]), comp:r[5]||"", med:num(r[6]),
+    apoio:(r[7]||"").trim(),
+    ini:r.slice(8,13).map(x=>(x||"").trim()),
+    cont:r.slice(13,18).map(x=>(x||"").trim()),
+    valid:r[18]||"", diag:num(r[19]), pia:num(r[20]), irreg:num(r[21]),
+    atend:r[22]||"", dif:r[23]||"", sup:r[24]||"", pend:r[25]||"",
+    ata:r[26]||"", pasta:r[27]||"", reun:(r[28]||"").trim(), duvida:r[29]||""
+  };
+}
+async function loadData(){
+  const res=await fetch(CSV_URL,{cache:"no-store"});
+  if(!res.ok)throw new Error("Não foi possível acessar a base publicada.");
+  const rows=parseCSV(await res.text()).slice(1).filter(r=>r.some(v=>String(v).trim()!==""));
+  const latest=new Map();
+  rows.map(rowToObj).filter(x=>x.escola && x.rpp.toLowerCase()==="sim").forEach((x,idx)=>{
+    const key=(x.gre+"|"+x.escola).toLocaleLowerCase("pt-BR");
+    const old=latest.get(key);
+    const t=parseStamp(x.ts);
+    if(!old || t>old._t || (t===old._t && idx>old._idx)) latest.set(key,{...x,_t:t,_idx:idx});
+  });
+  D=[...latest.values()].map(({_t,_idx,...x})=>x);
+}
+function showLoadError(err){
+  document.querySelector("main").innerHTML=`<div class="panel"><div class="pt">Não foi possível carregar os dados</div><div class="pd">O painel não conseguiu acessar a BASE_BI_RPP publicada no Google Sheets. Atualize a página em alguns instantes. Se o problema persistir, confira se a publicação da aba continua ativa.</div><div class="note">${esc(err.message||err)}</div></div>`;
+}
+function init(){
+fill($('gre'),uniq(D.map(x=>x.gre)),'Todas as GREs');fill($('apoio'),uniq(D.map(x=>x.apoio)),'Todos');syncSchools();
+function syncSchools(){let a=D.filter(x=>!$('gre').value||x.gre===$('gre').value);fill($('esc'),uniq(a.map(x=>x.escola)),'Todas as escolas')}
+function filtered(){return D.filter(x=>(!$('gre').value||x.gre===$('gre').value)&&(!$('esc').value||x.escola===$('esc').value)&&(!$('apoio').value||x.apoio===$('apoio').value)&&(!$('reun').value||x.reun===$('reun').value))}
+function bars(el,items,color=''){let mx=Math.max(...items.map(x=>x[1]),1);$(el).innerHTML=items.map(x=>`<div class="barrow"><div title="${esc(x[0])}">${esc(x[0])}</div><div class="track"><div class="fill ${color}" style="width:${x[1]/mx*100}%"></div></div><b>${fmt(x[1])}</b></div>`).join('')}
+function groupSum(a,key,val){let m={};a.forEach(x=>m[x[key]]=(m[x[key]]||0)+(val?x[val]:1));return Object.entries(m).sort((a,b)=>b[1]-a[1])}
+function renderGeneral(a){let est=a.reduce((s,x)=>s+x.est,0),diag=a.reduce((s,x)=>s+x.diag,0),pia=a.reduce((s,x)=>s+x.pia,0),irr=a.reduce((s,x)=>s+x.irreg,0);$('kesc').textContent=fmt(a.length);$('kest').textContent=fmt(est);$('kdiag').textContent=fmt(diag);$('pdiag').textContent=pct(diag,est)+' dos estudantes';$('kpia').textContent=fmt(pia);$('ppia').textContent=pct(pia,est)+' dos estudantes';$('kirr').textContent=fmt(irr);$('pirr').textContent=pct(irr,est)+' dos estudantes';$('kreu').textContent=fmt(a.filter(x=>x.reun==='Sim').length);bars('grebars',groupSum(a,'gre','est'));bars('supbars',groupSum(a,'sup').slice(0,8));bars('partbars',[['Com participação irregular',a.filter(x=>x.irreg>0).length],['Sem participação irregular informada',a.filter(x=>x.irreg===0).length]],'r');bars('atbars',groupSum(a,'atend').slice(0,7))}
+function statusClass(s){if(s.includes('Concluída para todos')||s.includes('regularmente e com registro'))return'ok';if(s.includes('Não iniciada')||s.includes('Não ocorre'))return'bad';return'warn'}
+function renderActions(a){let all=[...iniNames.map((n,i)=>[n,i,'ini']),...contNames.map((n,i)=>[n,i,'cont'])];$('actionSummary').innerHTML='<div class="grid2">'+['ini','cont'].map(type=>`<div><div class="pt">${type==='ini'?'Ações iniciais':'Ações contínuas'}</div>${all.filter(z=>z[2]===type).map(z=>{let vals={};a.forEach(x=>vals[x[type][z[1]]]=(vals[x[type][z[1]]]||0)+1);return `<div style="margin:10px 0"><b style="font-size:11px">${z[0]}</b><div style="margin-top:5px">${Object.entries(vals).sort((p,q)=>q[1]-p[1]).map(v=>`<span class="badge ${statusClass(v[0])}" style="margin:2px">${esc(v[0])}: ${v[1]}</span>`).join('')}</div></div>`}).join('')}</div>`).join('')+'</div>';
+$('matrix').innerHTML='<table><thead><tr><th>GRE</th><th>Escola</th>'+iniNames.concat(contNames).map(x=>'<th>'+x+'</th>').join('')+'</tr></thead><tbody>'+a.map(x=>'<tr><td>'+x.gre+'</td><td>'+esc(x.escola)+'</td>'+x.ini.concat(x.cont).map(s=>`<td><span class="badge ${statusClass(s)}">${esc(s)}</span></td>`).join('')+'</tr>').join('')+'</tbody></table>'}
+function detail(a){let x=$('esc').value?a.find(z=>z.escola===$('esc').value):a[0];if(!x){$('schoolDetail').innerHTML='<div class="pt">Selecione uma escola</div>';return}let rate=x.est?pct(x.irreg,x.est):'—';$('schoolDetail').innerHTML=`<div class="schoolhead"><div><div class="schoolname">${esc(x.escola)}</div><div class="meta">${esc(x.gre)} · Ficha individual de acompanhamento</div></div><span class="badge ${x.reun==='Sim'?'warn':'info'}">Reunião GEECI: ${x.reun}</span></div><div class="mini"><div><div class="ml">Estudantes</div><div class="mv">${x.est}</div></div><div><div class="ml">Diagnóstico</div><div class="mv">${x.diag}</div></div><div><div class="ml">PIA</div><div class="mv">${x.pia}</div></div><div><div class="ml">Participação irregular</div><div class="mv">${x.irreg}</div><div class="kf">${rate}</div></div><div><div class="ml">Mediadores</div><div class="mv">${x.med}</div><div class="kf">Apoio: ${esc(x.apoio)}</div></div></div><div class="pt">Ações iniciais</div><div class="steps">${x.ini.map((s,i)=>`<div class="step"><div class="sn">${i+1}. ${iniNames[i]}</div><div class="st"><span class="badge ${statusClass(s)}">${esc(s)}</span></div></div>`).join('')}</div><div class="pt" style="margin-top:14px">Ações contínuas</div><div class="steps">${x.cont.map((s,i)=>`<div class="step"><div class="sn">${i+1}. ${contNames[i]}</div><div class="st"><span class="badge ${statusClass(s)}">${esc(s)}</span></div></div>`).join('')}</div><div class="textgrid"><div class="textbox"><div class="textlabel">Validação final</div><div class="textval">${esc(x.valid)}</div></div><div class="textbox"><div class="textlabel">Forma de atendimento</div><div class="textval">${esc(x.atend)}</div></div><div class="textbox"><div class="textlabel">Principais dificuldades</div><div class="textval">${esc(x.dif)}</div></div><div class="textbox"><div class="textlabel">Suporte mais urgente</div><div class="textval">${esc(x.sup)}</div></div><div class="textbox"><div class="textlabel">Principal pendência e encaminhamento</div><div class="textval">${esc(x.pend)}</div></div><div class="textbox"><div class="textlabel">Assunto para reunião</div><div class="textval">${esc(x.duvida||'Não informado')}</div></div></div><div class="links">${link(x.ata,'Abrir ata de sistematização')} ${link(x.pasta,'Abrir pasta comprobatória')}</div>`}
+function link(u,t){let s=String(u||'').trim();return /^https?:\/\//i.test(s)?`<a href="${esc(s)}" target="_blank" rel="noopener">${t} ↗</a>`:''}
+const criteria=[['Sem atendimento iniciado',x=>x.atend.includes('ainda não estão sendo realizados')],['Diagnóstico incompleto',x=>x.diag<x.est],['PIA incompleto',x=>x.pia<x.est],['Participação irregular',x=>x.irreg>0],['Sem mediador',x=>x.med===0],['Ação que não ocorre',x=>x.cont.some(s=>s==='Não ocorre')],['Solicitou reunião',x=>x.reun==='Sim'],['Inconsistência quantitativa',x=>x.diag>x.est||x.pia>x.est]];let active='';
+$('chips').innerHTML='<button class="chip on" data-c="">Todas</button>'+criteria.map((c,i)=>`<button class="chip" data-c="${i}">${c[0]}</button>`).join('');
+function renderPrior(a){let q=$('search').value.toLowerCase();let z=a.filter(x=>(active===''||criteria[+active][1](x))&&(!q||x.escola.toLowerCase().includes(q)));$('ptbody').innerHTML=z.map(x=>`<tr><td>${x.gre}</td><td>${esc(x.escola)}</td><td>${x.est}</td><td>${x.diag}${x.diag>x.est?' ⚠':''}</td><td>${x.pia}${x.pia>x.est?' ⚠':''}</td><td>${x.irreg}</td><td>${esc(x.atend)}</td><td><span class="badge ${x.reun==='Sim'?'warn':'info'}">${x.reun}</span></td></tr>`).join('')}
+function hasWeb(u){return /^https?:\/\//i.test(String(u||'').trim())}
+fill($('docGre'),uniq(D.filter(x=>hasWeb(x.ata)||hasWeb(x.pasta)).map(x=>x.gre)),'Todas as GREs');
+function docButton(u,label){return hasWeb(u)?`<a class="badge info" style="text-decoration:none" href="${esc(String(u).trim())}" target="_blank" rel="noopener">${label} ↗</a>`:'<span class="badge" style="background:#f1f3f6;color:#7b8492">Sem link direto</span>'}
+function renderDocs(){
+ let g=$('docGre').value,q=$('docSearch').value.toLowerCase().trim();
+ let z=D.filter(x=>(hasWeb(x.ata)||hasWeb(x.pasta))&&(!g||x.gre===g)&&(!q||x.escola.toLowerCase().includes(q)));
+ $('docCount').textContent=`${z.length} escola${z.length===1?'':'s'} com pelo menos um link web disponibilizado.`;
+ $('docbody').innerHTML=z.sort((a,b)=>a.gre.localeCompare(b.gre,'pt-BR',{numeric:true})||a.escola.localeCompare(b.escola,'pt-BR')).map(x=>`<tr><td>${esc(x.gre)}</td><td><b>${esc(x.escola)}</b></td><td>${docButton(x.ata,'Abrir ata')}</td><td>${docButton(x.pasta,'Abrir pasta')}</td></tr>`).join('');
+}
+function render(){let a=filtered();renderGeneral(a);renderActions(a);detail(a);renderPrior(a);renderDocs()}
+$('gre').addEventListener('change',()=>{syncSchools();render()});['esc','apoio','reun'].forEach(id=>$(id).addEventListener('change',render));$('search').addEventListener('input',()=>renderPrior(filtered()));$('docGre').addEventListener('change',renderDocs);$('docSearch').addEventListener('input',renderDocs);document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tab,.view').forEach(x=>x.classList.remove('on'));b.classList.add('on');$(b.dataset.v).classList.add('on');if(b.dataset.v==='escola'&&!$('esc').value){$('esc').focus()}}));$('chips').addEventListener('click',e=>{let b=e.target.closest('.chip');if(!b)return;document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));b.classList.add('on');active=b.dataset.c;renderPrior(filtered())});render();
+}
+loadData().then(init).catch(showLoadError);
+</script></body></html>
